@@ -1,58 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Two-column Layout Example</title>
-<style>
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.person {
-  width: 50%;
-}
-    .back-to-nav {
-         position: absolute; 
-         left: 50%;    
-         transform: translateX(-50%);        
-         padding: 20px 30px; 
-         text-align: center; 
-         background-color: #4CAF50; 
-         color: white; 
-         border: none; 
-         cursor: pointer; 
-     }
-</style>
-</head>
-<body>
-<h1 style="text-align:center">Group 5</h1>
-<h2>Group members</h2>
-<div class="container">
-  <div class="person">
-    <h3>name: Rongzhe Zhang</h3>
-    <h3>email address: 1295676892@qq.com</h3>
-    <img src="../images/Rongzhe Zhang.jpg" width="300" height=auto alt="Rongzhe Zhang">
-  </div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>About US</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<style>
+		.container {
+ 		 display: flex;
+  		flex-wrap: wrap;
+		background-color:white;
+		color:black;
+		}
+		.person {
+ 		 width: 50%;
+		}
+		</style>
+	</head>
+	<body>
 
-  <div class="person">
-    <h3>name: Bingsheng Liu</h3>
-    <h3>email address: 2477223580@qq.com</h3>
-    <img src="../images/Bingsheng Liu.jpg" width="300" height=auto alt="Bingsheng Liu">
-  </div>
+		<!-- Header Wrapper -->
+			<div class="wrapper style1">
+			
+			<!-- Header -->
+				<div id="header">
+					<div class="container">
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+								<li class="active"><a href="../index.html">Home</a></li>
+							</nav>
+	
+					</div>
+				</div>
+			</div>
 
-  <div class="person">
-    <h3>name: Kuihao Wang</h3>
-    <h3>email address: 3198739215@qq.com</h3>
-    <img src="../images/Kuihao Wang.jpg" width="300" height=auto alt="Kuihao Wang">
-  </div>
+			<div id="main" class="wrapper style4">
+  				<div class="container">
+  				<div class="person">
+   				<h3>name: Rongzhe Zhang</h3>
+    				<h3>email address: 1295676892@qq.com</h3>
+    				<img src="images/Rongzhe Zhang.jpg" width="300" height=auto alt="Rongzhe Zhang">
+  				</div>
 
-  <div class="person">
-    <h3>name: Kexu Han</h3>
-    <h3>email address: 1730968668@qq.com</h3>
-    <img src="../images/Kexu Han.jpg" width="300" height=auto alt="Kexu Han">
-  </div>
-</div>
-<button class="back-to-nav" onclick="location.href='../index.html'">Return to HOME</button>
+  				<div class="person">
+    				<h3>name: Bingsheng Liu</h3>
+    				<h3>email address: 2477223580@qq.com</h3>
+   				<img src="images/Bingsheng Liu.jpg" width="300" height=auto alt="Bingsheng Liu">
+  				</div>
+
+  				<div class="person">
+    				<h3>name: Kuihao Wang</h3>
+    				<h3>email address: 3198739215@qq.com</h3>
+    				<img src="images/Kuihao Wang.jpg" width="300" height=auto alt="Kuihao Wang">
+  				</div>
+
+  				<div class="person">
+    				<h3>name: Kexu Han</h3>
+    				<h3>email address: 1730968668@qq.com</h3>
+    				<img src="images/Kexu Han.jpg" width="300" height=auto alt="Kexu Han">
+  				</div>
+				</div>
+		
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
